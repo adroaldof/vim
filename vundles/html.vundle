@@ -1,0 +1,6 @@
+" #############################################################################
+" # Ignore these tags
+" #############################################################################
+
+" Angular directive tags
+let g:syntastic_html_tidy_blocklevel_tags = ['tab', 'tabset', 'tags-input', 'abn-tree', 'isteven-multi-select']
