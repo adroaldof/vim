@@ -43,4 +43,6 @@ Some useful shortcuts
 ---
 
 ## References:
-- [Yan Pritzker](https://github.com/skwp/dotfiles)
+- [5 Essential VIM Plugins That Greatly Increase my Productivity - Joel Hooks](http://joelhooks.com/blog/2013/04/23/5-essential-vim-plugins/)
+- [YADR - The best vim,git,zsh plugins and the cleanest vimrc you've ever seen - Yan Pritzker](https://github.com/skwp/dotfiles)
+- [asdf](https://www.quora.com/Which-are-the-best-Vim-plugins)
