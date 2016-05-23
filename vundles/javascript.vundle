@@ -1,22 +1,40 @@
-" Bundle "jelera/vim-javascript-syntax"
-" Bundle "pangloss/vim-javascript"
-" Bundle "nathanaelkane/vim-indent-guides"
-" Bundle "Raimondi/delimitMate"
-" Bundle "marijnh/tern_for_vim"
-" Bundle "maksimr/vim-jsbeautify"
+" #############################################################################
+" # Vim JavaScript
+" #############################################################################
+Bundle "pangloss/vim-javascript"
+
+let g:javascript_enable_domhtmlcss = 1 " Enable HTML/CSS syntax highlighting in JS files
+set foldmethod=syntax " Enable code folding
 
 
-" Bundle "scrooloose/syntastic"
+" #############################################################################
+" # Vim JavaScript Syntax
+" #############################################################################
+Bundle "jelera/vim-javascript-syntax"
 
-" This does what it says on the tin. It will check your file on open too, not just on save.
-" You might not want this, so just leave it out if you don't.
-let g:syntastic_check_on_open=1
+
+" #############################################################################
+" # Vim JavaScript JSX
+" #############################################################################
+Bundle "mxw/vim-jsx"
 
 
-" Bundle "Valloric/YouCompleteMe"
+" #############################################################################
+" # Vim JavaScript Parser
+" #############################################################################
+Bundle "marijnh/tern_for_vim"
 
-" These are the tweaks I apply to YCM's config, you don't need them but they might help.
-" YCM gives you popups and splits by default that some people might not like, so these should tidy it up a bit for you.
-" let g:ycm_add_preview_to_completeopt=0
-" let g:ycm_confirm_extra_conf=0
-" set completeopt-=preview
+
+" #############################################################################
+" # Vim JavaScript Beautify
+" #############################################################################
+" Config with .editorconfig
+Bundle "maksimr/vim-jsbeautify"
+
+map <c-f> :call JsBeautify()<cr>
+
+
+" #############################################################################
+" # Vim JSON Improvement
+" #############################################################################
+Bundle "elzr/vim-json"

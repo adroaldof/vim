@@ -24,7 +24,9 @@ Bundle "gmarik/vundle"
 " ~/.vim/vundles/ to edit them:
 
 runtime appearance.vundle
+runtime css.vundle
 runtime extras.vundle
+runtime codestyles.vundle
 runtime html.vundle
 runtime javascript.vundle
 runtime project.vundle
