@@ -7,6 +7,17 @@ Bundle "wakatime/vim-wakatime.git"
 " #############################################################################
 " # Auto Complete
 " #############################################################################
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'garbas/vim-snipmate'
+
+" Optional:
+" Bundle 'honza/vim-snippets'
+
+
+" #############################################################################
+" # Auto Complete
+" #############################################################################
 " Bundle "Valloric/YouCompleteMe"
 
 " These are the tweaks I apply to YCM's config, you don't need them but they might help.
