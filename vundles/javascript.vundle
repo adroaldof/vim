@@ -38,3 +38,16 @@ map <c-f> :call JsBeautify()<cr>
 " # Vim JSON Improvement
 " #############################################################################
 Bundle "elzr/vim-json"
+
+
+" #############################################################################
+" # Vim JS Docummetation
+" #############################################################################
+Bundle "heavenshell/vim-jsdoc"
+
+nmap <silent> <C-w> <Plug>(jsdoc)
+let g:jsdoc_allow_input_prompt = 1
+let g:jsdoc_input_description = 1
+let g:jsdoc_enable_es6 = 1
+let g:jsdoc_access_descriptions = 1
+
