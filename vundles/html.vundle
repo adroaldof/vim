@@ -22,3 +22,8 @@ Bundle "hokaccha/vim-html5validator"
 
 " Angular directive tags
 let g:syntastic_html_tidy_blocklevel_tags = ['tab', 'tabset', 'tags-input', 'abn-tree', 'isteven-multi-select']
+
+" #############################################################################
+" # Sintax highlight for Pug (Jade)
+" #############################################################################
+Bundle "digitaltoad/vim-pug.git"
