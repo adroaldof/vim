@@ -27,3 +27,9 @@ let g:syntastic_html_tidy_blocklevel_tags = ['tab', 'tabset', 'tags-input', 'abn
 " # Sintax highlight for Pug (Jade)
 " #############################################################################
 Bundle "digitaltoad/vim-pug.git"
+
+" #############################################################################
+" # Sintax highlight for EJS
+" #############################################################################
+Bundle 'nikvdp/ejs-syntax'
+
