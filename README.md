@@ -37,6 +37,9 @@ Some useful shortcuts
 
 ```
 <C-n> - Toggle NERDTree
+`m` - Show useful commands list
+`r` - Current node refresh
+`R` - Role directory refresh
 ```
 
 
