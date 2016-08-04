@@ -121,3 +121,6 @@ so ~/.vim/settings.vim
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
+
+" ================ Other configs ========================
+set laststatus=2 " Light line config
