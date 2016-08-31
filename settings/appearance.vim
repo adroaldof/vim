@@ -4,6 +4,13 @@ Bundle "chriskempson/base16-vim"
 let base16colorspace=256  " Access colors present in 256 colorspace
 
 
+Bundle "Yggdroot/indentLine"
+" ========= Vertical line indentation ============
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#09AA08'
+let g:indentLine_char = '│'
+
+
 " ========== Vim status bar ==========
 Bundle "itchyny/lightline.vim"
 
