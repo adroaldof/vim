@@ -25,6 +25,7 @@ Bundle "gmarik/vundle"
 
 runtime appearance.vundle
 runtime css.vundle
+runtime docker.vundle
 runtime extras.vundle
 runtime codestyles.vundle
 runtime html.vundle
